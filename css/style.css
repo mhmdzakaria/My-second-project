@@ -1,0 +1,379 @@
+/*------------- (1) Start general -------------*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	
+
+}
+/*!---------------- End general ----------------*/
+
+/*------------- (2) Start body -------------*/
+
+body
+{
+	height: ;
+	font-family: 'Lato', sans-serif;
+}
+
+/*---------------- End body ----------------*/
+
+/*------------- (3)Start header -------------*/
+
+.header
+{
+	background: #10ac84;
+	padding-bottom: 50px;
+
+}
+.navbar
+{
+	padding-top: 20px;
+}
+.navbar-brand
+{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
+.navbar-brand:hover
+{
+	color: white;
+}
+.nav-item
+{
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.nav-link
+{
+	color: white !important;
+	font-size: 12px !importan;
+	padding: 0 0 5px 0 !importan;
+}
+.fa-bars
+{
+	color: white;
+	font-size: 40px;
+}
+.navbar-toggler
+{
+	border: 0 !important;
+	outline: none !important;
+	
+}
+.active-home
+{
+	border-bottom: 2px solid white;
+}
+.nav-item:hover
+{
+	border-bottom: 2px solid white;
+    transition: all 150ms ease-in-out;
+
+}
+.banner
+{
+	margin-top: 8%;
+	color: white;
+	
+}
+.banner .part-one
+{
+	padding-bottom: 90px;
+}
+.banner h1
+{
+	font-weight: 600;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.banner a
+{
+	padding: 12px;
+	width: 190px;
+	display: inline-block;
+	text-decoration: none !important;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 16px;
+	text-transform: capitalize;
+	margin-right: 10px;
+
+}
+.banner a:hover
+{
+	background: #022F40 !important;
+	color: white !important;
+	border: none;
+	outline: none;
+    transition: all .3s ease-in-out;
+
+}
+
+/*------------- End header -------------*/
+
+/*------------- (4)Start Services -------------*/
+.services
+{
+	margin-top: 50px;
+	color: #0A3D62;
+}
+.services .title
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 60px;
+	margin-bottom: 20px;
+	
+
+}
+.services .lead
+{
+	margin-bottom: 70px;
+	font-size: 1.5em;
+	color: #0D1321;
+}
+
+.services .card
+{
+	cursor: pointer;
+	transition: all .4s ease-in-out;
+	max-height: 100%;
+	
+}
+.services .card-img-top
+{
+	
+	width: 50%;
+	margin: auto;
+	margin-top: 35px;
+}
+.services .card h6
+{
+	color: #0D1321;
+	font-size: 1.5em;
+	text-transform: uppercase
+	
+}
+.services .card p
+{
+	color: #0D1321;
+	
+}
+.services .active
+{
+	background: #10AC84;
+	border-radius: 5px;
+	color: white !important;
+}
+.services .active h6
+{
+	color: white !important;
+	font-size: 1.5em;
+	text-transform: uppercase
+}
+.services .active p
+{
+	color: white !important;
+}
+.services .fa-arrow-right
+{
+	font-size: 40px !important;
+	margin: 30px 0;
+	color: #022F40;
+}
+.services .card:hover
+{
+	background: #10AC84;
+	border-radius: 5px;
+	color: white !important;
+}
+.services .card:hover h6
+{
+	
+	color: white !important;
+}
+.services .card:hover p
+{
+	
+	color: white !important;
+}
+
+.services .card:hover .fa-arrow-right
+{
+	
+	color: white;
+}
+
+/*------------- End Services -------------*/
+
+/*------------- (5)Start features -------------*/
+.features
+{
+	margin-top: 150px;
+	color: #0A3D62;
+	
+}
+
+.features img
+{
+    cursor: pointer;
+}
+.features h1
+{
+	font-weight: bold;
+	line-height: 50px;
+}
+.features p
+{
+	margin-top: 25px;
+	margin-bottom: 30px;
+	color: #0D1321;
+}
+
+/*------------- End features -------------*/
+
+/*------------- (6)Start explore -------------*/
+.explore
+{
+	margin-top: 150px;
+	color: #0A3D62;
+
+}
+.explore img
+{
+	
+    cursor: pointer;
+	
+
+}
+.explore h1
+{
+	
+	font-weight: bold;
+	line-height: 50px;
+}
+.explore p
+{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	color: #0D1321;
+
+}
+
+
+/*------------- End explore -------------*/
+
+/*------------- (7)Start review -------------*/
+
+.review
+{
+	margin: 100px auto;
+}
+.review .title
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 60px;
+	margin-bottom: 20px;
+}
+.review .lead
+{
+	margin-bottom: 70px;
+	font-size: 1.5em;
+	color: #0D1321;
+}
+
+.review img
+{
+	height: 100%;
+	opacity: .5;
+
+}
+.review img:hover
+{
+	opacity: 1;
+    transition: all .3s ease-in-out;
+
+}
+.review .col-lg-4
+{
+	padding: 5px;
+}
+.review h1
+{
+    margin: 70px auto;
+    font-weight: 600;
+	color: black;
+	
+}
+
+/*------------- End review -------------*/
+
+/*------------- (8)Start footer -------------*/
+
+.footer
+{
+	padding: 50px;
+	background: #0B6E54;
+}
+.footer h6, p
+{
+	color: white;
+	text-transform: capitalize;
+}
+.footer input
+{
+	display: inline-block;
+	width: 60%;
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 1px  solid white;
+	padding: 10px;
+	color: white;
+	margin: 15px auto;
+	text-align: center;
+}
+.footer ::placeholder
+{
+	color: #8C8C89 !important;
+}
+
+.footer button
+{
+	display: block;
+	width: 180px;
+	background: transparent;
+	outline: none;
+	border: 1px  solid white;
+	padding: 6px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	margin: 15px auto;
+}
+.footer span
+{
+	color: white;
+}
+
+.footer .fab
+{
+	margin: 30px 10px;
+	color: white;
+}
+.footer .fab:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all .5s ease-in-out;
+}
+
+/*------------- End footer -------------*/
